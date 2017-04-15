@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/catsback2"
+    tools:context="com.example.dejan.hackaday.CategoryActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="130dp"
+        >
+        <ImageView
+            android:layout_width="@dimen/mood_box"
+            android:layout_height="@dimen/mood_box"
+            android:id="@+id/categoryMovie"
+            android:src="@drawable/movies"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:layout_width="@dimen/mood_box"
+            android:layout_height="@dimen/mood_box"
+            android:id="@+id/categoryBooks"
+            android:src="@drawable/books"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="110dp"
+        >
+        <ImageView
+            android:layout_width="@dimen/mood_box"
+            android:layout_height="@dimen/mood_box"
+            android:id="@+id/categoryMusic"
+            android:src="@drawable/music"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <ImageView
+            android:layout_width="@dimen/mood_box"
+            android:layout_height="@dimen/mood_box"
+            android:id="@+id/categoryGames"
+            android:src="@drawable/games"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:layout_width="@dimen/mood_box"
+            android:layout_height="@dimen/mood_box"
+            android:id="@+id/categoryPlaces"
+            android:src="@drawable/places"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_next"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="240dp"
+        android:src="@drawable/next"
+        />
+
+</RelativeLayout>

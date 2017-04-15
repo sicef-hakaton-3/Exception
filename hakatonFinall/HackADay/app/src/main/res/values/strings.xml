@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MashDay</string>
+    <string name="action_settings">Settings</string>
+    <string name="contentDescriptionMoodButtons">MoodButton</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="appbar_scrolling_view_behavior">Testiranje</string>
+    <string name="google_api_key">AIzaSyBO_jabMJcby8yph7nag8updXl5juEIhRk</string>
+
+</resources>
